@@ -425,7 +425,7 @@ function App() {
             ]}>
             <Input />
           </Form.Item>
-          <Form.Item name="description" label="TextArea" rules={[
+          <Form.Item name="description" label="Description" rules={[
             {
               required: true,
               message: "Please enter Description"
